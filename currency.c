@@ -3,7 +3,7 @@ int main()
 {
     int amt;
     printf("Enter a Amount");
-    scanf("%d",&amt);
+    scanf("%d",&amt);e
     printf("10*%d",amt/10);
     amt=amt%10;
     printf("\n5*%d",amt/5);
