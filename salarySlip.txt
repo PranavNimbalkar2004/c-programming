@@ -1,0 +1,9 @@
+
+----------------------Employee Salary Slip----------------------
+		ID              : 125
+		Nmae             : @
+		Basic Salary              : 0
+		DA(%)            : 0.00
+		HRA(%)           : 0.00
+		TAX(%)          : 0.00
+		Total Salary          : 0.00
