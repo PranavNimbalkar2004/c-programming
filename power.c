@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,result,i;
+    int x,y,result=1,i;
     printf("Enter a No =");
     scanf("%d",&x);
     printf("Enter a Power =");
@@ -11,6 +11,6 @@ int main()
     {
         result=result*x;
         i++;
-        printf("\n %d=%d",x,y,result);
     }
-}
+    printf("\n%d %d=%d",x,y,result);
+    }
