@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int n,i,flag;
+printf("Enter a No =");
+scanf("%d",&n);
+flag=1;
+if(n%2==0||n%3==0)
+flag=0;
+else
+{
+    for(i=5;i<=sqrt(n);i+=6)
+    {
+        if (n%i==0||n%(i+2)==0)
+        {
+            flag=0;
+            break;
+        }
+    }
+        
+    }
+    if(flag==1)
+    printf("no is prime");
+    else
+    printf("no is not prime");
+}
