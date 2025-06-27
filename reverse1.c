@@ -6,6 +6,6 @@ int main()
     printf("Enter a No =");
     scanf("%s",&num);
     strrev(num);
-    printf("Reverse no s %s",num);
+    printf("Reverse no  %s",num);
     return 0;
 }
